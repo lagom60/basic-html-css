@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko-KR">
 
 <head>
   <meta charset="UTF-8" />
@@ -10,18 +10,17 @@
 
 <body>
   <h1>폼 관련 요소</h1>
-  <form action="서버 URL" method="post" id="searchForm">
+  <form action="https://formspree.io/f/xeqwwbwk" method="POST" id="searchForm">
     <fieldset>
       <legend>검색</legend>
       <div>
-        <label for="search">자료검색</label>
-        <input id="search" type="search" placeholder="검색어" />
+        <label for="search">검색어</label>
+        <input id="search" type="search" placeholder="검색어" name="search"
+          required />
       </div>
     </fieldset>
   </form>
   <button type="submit" form="searchForm">검색</button>
-  </div>
-
 
 </body>
 
